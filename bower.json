@@ -1,0 +1,21 @@
+{
+  "name": "labb3",
+  "main": "Y",
+  "authors": [
+    "erikainde"
+  ],
+  "description": "labb",
+  "keywords": [
+    "gul"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

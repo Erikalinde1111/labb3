@@ -1,0 +1,14 @@
+<form name="teckenForm">
+	Fyll i ditt födelsedatum <input type="text" ng-model="pnummer" ng-minlength="8" required></input><br><br>
+	Fyll i ditt Förnamn <input type="text" ng-model="namn" ng-minlength="2" required></input>
+</form>
+
+	<div ng-if="teckenForm.$valid">
+		<h3>HEJ {{namn}}, HÄR SER DU VILLKET DJUR DU ÄR</h3>
+		<p>Person år: {{person.year}}</p>
+		<p>Person månad: {{person.month}}</p>
+		<p>Person dag: {{person.day}}</p>
+		<h6>DU ÄR FÖDD I {{person.animal.sign}}s ÅR</h6>
+		
+	</div>
+

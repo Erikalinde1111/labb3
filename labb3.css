@@ -1,0 +1,19 @@
+h1 { color: blue;}
+
+li a{
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+}
+div {
+	background-color: pink;
+	margin: 20px;
+}

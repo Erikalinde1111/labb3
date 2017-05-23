@@ -1,0 +1,41 @@
+<!doctype html>
+<html ng-app="app">
+	<head>
+		<title>LABB 3</title>
+		<link rel="stylesheet" href="labb3.css" type="text/css"/>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		
+		<header>
+			<ul>
+				<li><a href="#!/one">HEM</a></li>
+				<li><a href="#!/second">TECKEN</a></li>
+			</ul>
+			
+		</header>
+		
+		<div ng-controller='FirstController'>
+			<button type="button" id="send-button" ng-click="go()">Click Me!</button><br>
+			{{add()}}<br>
+			{{moms(10)}}
+			{{buy()}}
+		</div>
+		<div>
+			<ng-view>
+			
+			</ng-view>
+		
+			
+		</div>
+	
+	
+	
+	
+	
+		
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="labb3.js"></script>
+	</body>
+</html>
